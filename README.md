@@ -53,7 +53,14 @@ export default tseslint.config({
 })
 ```
 
-## nodejs 22.14.0
+# What version of nodejs ?
+Im using nodejs 22.14.0
 
-## npm install > npm run dev
+# How to run this application ?
+npm install npm run dev
+
+# How to deploy this application ?
+First, build image using build_production.bat/build_qa.bat/build_staging.bat depend on your envionment
+Then, check your image: docker image ls
+Then, docker run -p 80:80 {image}
 
