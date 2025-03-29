@@ -1,0 +1,3 @@
+@echo off
+echo Building Docker image for production...
+docker build --build-arg NODE_ENV=production -t my-ui-app:production .

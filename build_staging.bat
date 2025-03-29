@@ -1,0 +1,3 @@
+@echo off
+echo Building Docker image for staging...
+docker build --build-arg NODE_ENV=staging -t my-ui-app:staging .
